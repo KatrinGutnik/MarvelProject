@@ -1,0 +1,349 @@
+
+body {
+    font-family: "Roboto Light";
+}
+
+.header{
+    width: 1280px;
+    position: relative;
+    border: 1px solid black;
+    height: 45px;
+    padding: 0;
+    background: #222222;
+}
+.header_logo{
+    position: absolute;
+    top: 6px;
+    margin-left: 6px;
+    bottom: 16px;
+    color: #fff;
+    border: 1px solid #C4C4C4;
+    width: 127px;
+    height: 30px;
+    background: #C4C4C4;
+}
+.logo_name{
+    color: black;
+    position: absolute;
+    top: 6px;
+    left: 45px;
+    font-size: 14px;
+}
+.header_menu{
+    position: absolute;
+    left: 490px;
+    top: 1px;
+
+
+}
+.header_menu>ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    margin-right: 40px;
+    font-size: 14px;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+
+
+.header_entrance{
+    position: absolute;
+    top: 12px;
+    /*top: 15px;*/
+    color: white;
+    right: 6px;
+    display: flex;
+}
+.btn1{
+    width: 90px;
+    height: 22px;
+    background: #EE171F;
+    border: transparent;
+    border-radius: 25px;
+}
+.btn2{
+    width: 90px;
+    height: 22px;
+    background: #ffffff;
+    border: transparent;
+    border-radius: 25px;
+}
+.logo2{
+    top: 3px;
+    position: absolute;
+    right: 73px;
+}
+.logo_btn{
+    width: 39px;
+    height: 39px;
+}
+
+
+
+.info {
+    margin-top: 30px;
+    position: relative;
+    width: 1280px;
+    height: 460px;
+    background-image: url("img/bg.png");
+}
+.info_header{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    bottom: 330px;
+    font-size: 48px;
+    font-weight: bold;
+}
+.info_text {
+    left: 40px;
+    position: absolute;
+    top: 175px;
+    font-size: 14px;
+}
+.find_comics{
+    position: absolute;
+    left: 40px;
+    top: 255px;
+    border-radius: 25%;
+}
+.find_comics input{
+    left: 40px;
+    width: 180px;
+    height: 29px;
+    border-radius: 25px;
+    border: transparent;
+}
+.btn_find{
+    position: absolute;
+    top: 250px;
+    left: 200px;
+}
+.info_someText{
+    position: absolute;
+    top:343px;
+    left: 40px;
+    font-size: 24px;
+    font-style: italic;
+    color: black;
+}
+.info_name{
+    position: absolute;
+    top:410px;
+    left: 40px;
+    font-size: 14px;
+    color: black;
+}
+.info_logo{
+    position: absolute;
+    width: 194.45px;
+    height: 298.91px;
+    left: 700px;
+    top: 78px;
+}
+.info_pharagraph{
+    position: absolute;
+    top:135px;
+    left:965px;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+}
+.info_paragrText{
+    position: absolute;
+    top:185px;
+    left:965px;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+.info_button{
+    position: absolute;
+    top:285px;
+    left:965px;
+}
+.btn3{
+    width: 90px;
+    height: 27px;
+    background: #EE171F;
+    border: transparent;
+    border-radius: 25px;
+}
+.info_end{
+    position: absolute;
+    top:363px;
+    left:900px;
+}
+ul{
+    display: flex;
+}
+.info_end>ul>li{
+    color: red;
+    margin: 7px;
+    font-size: 27px;
+}
+.comics_menu{
+    margin-top: 30px;
+    position: relative;
+    width: 1280px;
+    height:1280px;
+}
+.comics_menuName{
+    position: absolute;
+    left: 500px;
+    top: 30px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+}
+.comics_menu1{
+    position: absolute;
+    left: 160px;
+    top: 100px;
+}
+.comics_menu2{
+    position: absolute;
+    left: 323px;
+    top: 100px;
+}
+.comics_menu3{
+    position: absolute;
+    left: 582px;
+    top: 100px;
+}
+.img_second{
+    border-radius: 35px;
+}
+.comics_menu4{
+    position: absolute;
+    left: 883.5px;
+    top: 100px;
+}
+.comics_price{
+    position: absolute;
+    top:473px;
+    left:432px;
+}
+
+.comics_cena>ul>li{
+    display: flex;
+    list-style-type: none;
+    margin-right: 262px;
+    font-size: 14px;
+    color: red;
+}
+.comics_name{
+    position: absolute;
+    top:451px;
+    left:542px;
+}
+.comics_name>ul>li{
+    display: flex;
+    list-style-type: none;
+    margin-right: 162px;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+.comics_info{
+    position: absolute;
+    top:473px;
+    left:542px;
+}
+.comics_info>ul>li{
+    display: flex;
+    list-style-type: none;
+    margin-right: 217px;
+    font-size: 14px;
+    color: black;
+}
+.comics_line{
+    position: absolute;
+    display: flex;
+    top: 545px;
+    left:20px;
+}
+.comics_menu5, .comics_menu6, .comics_menu7{
+    margin-right: 70px;
+}
+.characters_menu{
+    margin-top: -500px;
+    position: relative;
+    width: 1280px;
+    height:1280px;
+}
+.characters_menuName{
+    position: absolute;
+    left: 500px;
+    top: 30px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+}
+.characters_line{
+    position: absolute;
+    display: flex;
+    top: 105px;
+    left:20px;
+}
+.characters_menu1, .characters_menu2, .characters_menu3, .characters_menu4, .characters_menu5{
+    margin-right: 30px;
+}
+.bottom_menu {
+    margin-top: -730px;
+    position: relative;
+    width: 1280px;
+    height: 1280px;
+}
+.bottom_menu_logo{
+    position: absolute;
+    top: 60px;
+    margin-left: 18px;
+    bottom: 16px;
+    color: #fff;
+    border: 2px solid dimgrey;
+    width: 230px;
+    height: 58px;
+    background: #C4C4C4;
+}
+.bottom_logo_name {
+    color: black;
+    position: absolute;
+    top: 19px;
+    left: 98px;
+    font-size: 14px;
+}
+.bottom_menu_text{
+    position: absolute;
+    top: 140px;
+    left: 20px;
+    color:#7C7C7C;
+    font-size: 12px;
+}
+.bottom_menu_img{
+    position: absolute;
+    top: 180px;
+    display: flex;
+    left: 12px;
+}
+.bottom_menu1, .bottom_menu2, .bottom_menu3{
+    margin-right: 18px;
+}
+.bottom_menu_table{
+  position: absolute;
+    top:60px;
+    left: 700px;
+    width: 100%;
+    font-size: 14px;
+    color: black;
+}
+
+.bottom_menu_table td {
+    padding-bottom: 10px;
+}
