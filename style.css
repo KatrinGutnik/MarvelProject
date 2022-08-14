@@ -2,16 +2,25 @@
 body {
     font-family: "Roboto Light";
 }
-
-.header{
+.container{
+    margin: 0px auto;
+    height: 0px;
+    position: relative;
+}
+.zero_header{
+    position: sticky;
+    top: 0;
+}
+.header {
     width: 1280px;
     position: relative;
     border: 1px solid black;
-    height: 45px;
+    height: 500px;
     padding: 0;
     background: #222222;
 }
-.header_logo{
+
+.header_logo {
     position: absolute;
     top: 6px;
     margin-left: 6px;
@@ -22,35 +31,40 @@ body {
     height: 30px;
     background: #C4C4C4;
 }
-.logo_name{
+
+.logo_name {
     color: black;
     position: absolute;
     top: 6px;
     left: 45px;
     font-size: 14px;
 }
-.header_menu{
+
+.header_menu {
     position: absolute;
     left: 490px;
     top: 1px;
 
 
 }
-.header_menu>ul{
+
+.header_menu > ul {
     display: flex;
     list-style-type: none;
 }
-li{
+
+li {
     margin-right: 40px;
     font-size: 14px;
     color: #fff;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
 
-.header_entrance{
+.header_entrance {
     position: absolute;
     top: 12px;
     /*top: 15px;*/
@@ -58,40 +72,44 @@ a{
     right: 6px;
     display: flex;
 }
-.btn1{
+
+.btn1 {
     width: 90px;
     height: 22px;
     background: #EE171F;
     border: transparent;
     border-radius: 25px;
 }
-.btn2{
+
+.btn2 {
     width: 90px;
     height: 22px;
     background: #ffffff;
     border: transparent;
     border-radius: 25px;
 }
-.logo2{
+
+.logo2 {
     top: 3px;
     position: absolute;
     right: 73px;
 }
-.logo_btn{
+
+.logo_btn {
     width: 39px;
     height: 39px;
 }
 
 
-
 .info {
-    margin-top: 30px;
+    margin-top: 45px;
     position: relative;
     width: 1280px;
     height: 460px;
     background-image: url("img/bg.png");
 }
-.info_header{
+
+.info_header {
     position: absolute;
     left: 40px;
     top: 40px;
@@ -99,100 +117,116 @@ a{
     font-size: 48px;
     font-weight: bold;
 }
+
 .info_text {
     left: 40px;
     position: absolute;
     top: 175px;
     font-size: 14px;
 }
-.find_comics{
+
+.find_comics {
     position: absolute;
     left: 40px;
     top: 255px;
     border-radius: 25%;
 }
-.find_comics input{
+
+.find_comics input {
     left: 40px;
     width: 180px;
     height: 29px;
     border-radius: 25px;
     border: transparent;
 }
-.btn_find{
+
+.btn_find {
     position: absolute;
     top: 250px;
     left: 200px;
 }
-.info_someText{
+
+.info_someText {
     position: absolute;
-    top:343px;
+    top: 343px;
     left: 40px;
     font-size: 24px;
     font-style: italic;
     color: black;
 }
-.info_name{
+
+.info_name {
     position: absolute;
-    top:410px;
+    top: 410px;
     left: 40px;
     font-size: 14px;
     color: black;
 }
-.info_logo{
+
+.info_logo {
     position: absolute;
     width: 194.45px;
     height: 298.91px;
     left: 700px;
     top: 78px;
 }
-.info_pharagraph{
+
+.info_pharagraph {
     position: absolute;
-    top:135px;
-    left:965px;
+    top: 135px;
+    left: 965px;
     font-size: 24px;
     color: black;
     font-weight: bold;
 }
-.info_paragrText{
+
+.info_paragrText {
     position: absolute;
-    top:185px;
-    left:965px;
+    top: 185px;
+    left: 965px;
     font-size: 14px;
     color: black;
     font-weight: bold;
 }
-.info_button{
+
+.info_button {
     position: absolute;
-    top:285px;
-    left:965px;
+    top: 285px;
+    left: 965px;
 }
-.btn3{
+
+.btn3 {
     width: 90px;
     height: 27px;
     background: #EE171F;
     border: transparent;
     border-radius: 25px;
 }
-.info_end{
+
+.info_end {
     position: absolute;
-    top:363px;
-    left:900px;
+    top: 363px;
+    left: 900px;
 }
-ul{
+
+ul {
     display: flex;
 }
-.info_end>ul>li{
+
+.info_end > ul > li {
     color: red;
     margin: 7px;
     font-size: 27px;
 }
-.comics_menu{
+
+.comics_menu {
     margin-top: 30px;
     position: relative;
     width: 1280px;
-    height:1280px;
+    height: 1280px;
 }
-.comics_menuName{
+
+.comics_menuName {
     position: absolute;
     left: 500px;
     top: 30px;
@@ -201,48 +235,56 @@ ul{
     font-size: 24px;
     font-weight: bold;
 }
-.comics_menu1{
+
+.comics_menu1 {
     position: absolute;
     left: 160px;
     top: 100px;
 }
-.comics_menu2{
+
+.comics_menu2 {
     position: absolute;
     left: 323px;
     top: 100px;
 }
-.comics_menu3{
+
+.comics_menu3 {
     position: absolute;
     left: 582px;
     top: 100px;
 }
-.img_second{
+
+.img_second {
     border-radius: 35px;
 }
-.comics_menu4{
+
+.comics_menu4 {
     position: absolute;
     left: 883.5px;
     top: 100px;
 }
-.comics_price{
+
+.comics_price {
     position: absolute;
-    top:473px;
-    left:432px;
+    top: 473px;
+    left: 432px;
 }
 
-.comics_cena>ul>li{
+.comics_cena > ul > li {
     display: flex;
     list-style-type: none;
     margin-right: 262px;
     font-size: 14px;
     color: red;
 }
-.comics_name{
+
+.comics_name {
     position: absolute;
-    top:451px;
-    left:542px;
+    top: 451px;
+    left: 542px;
 }
-.comics_name>ul>li{
+
+.comics_name > ul > li {
     display: flex;
     list-style-type: none;
     margin-right: 162px;
@@ -250,34 +292,40 @@ ul{
     color: black;
     font-weight: bold;
 }
-.comics_info{
+
+.comics_info {
     position: absolute;
-    top:473px;
-    left:542px;
+    top: 473px;
+    left: 542px;
 }
-.comics_info>ul>li{
+
+.comics_info > ul > li {
     display: flex;
     list-style-type: none;
     margin-right: 217px;
     font-size: 14px;
     color: black;
 }
-.comics_line{
+
+.comics_line {
     position: absolute;
     display: flex;
     top: 545px;
-    left:20px;
+    left: 20px;
 }
-.comics_menu5, .comics_menu6, .comics_menu7{
+
+.comics_menu5, .comics_menu6, .comics_menu7 {
     margin-right: 70px;
 }
-.characters_menu{
+
+.characters_menu {
     margin-top: -500px;
     position: relative;
     width: 1280px;
-    height:1280px;
+    height: 1280px;
 }
-.characters_menuName{
+
+.characters_menuName {
     position: absolute;
     left: 500px;
     top: 30px;
@@ -286,22 +334,26 @@ ul{
     font-size: 24px;
     font-weight: bold;
 }
-.characters_line{
+
+.characters_line {
     position: absolute;
     display: flex;
     top: 105px;
-    left:20px;
+    left: 20px;
 }
-.characters_menu1, .characters_menu2, .characters_menu3, .characters_menu4, .characters_menu5{
+
+.characters_menu1, .characters_menu2, .characters_menu3, .characters_menu4, .characters_menu5 {
     margin-right: 30px;
 }
+
 .bottom_menu {
     margin-top: -730px;
     position: relative;
     width: 1280px;
     height: 1280px;
 }
-.bottom_menu_logo{
+
+.bottom_menu_logo {
     position: absolute;
     top: 60px;
     margin-left: 18px;
@@ -312,6 +364,7 @@ ul{
     height: 58px;
     background: #C4C4C4;
 }
+
 .bottom_logo_name {
     color: black;
     position: absolute;
@@ -319,25 +372,29 @@ ul{
     left: 98px;
     font-size: 14px;
 }
-.bottom_menu_text{
+
+.bottom_menu_text {
     position: absolute;
     top: 140px;
     left: 20px;
-    color:#7C7C7C;
+    color: #7C7C7C;
     font-size: 12px;
 }
-.bottom_menu_img{
+
+.bottom_menu_img {
     position: absolute;
     top: 180px;
     display: flex;
     left: 12px;
 }
-.bottom_menu1, .bottom_menu2, .bottom_menu3{
+
+.bottom_menu1, .bottom_menu2, .bottom_menu3 {
     margin-right: 18px;
 }
-.bottom_menu_table{
-  position: absolute;
-    top:60px;
+
+.bottom_menu_table {
+    position: absolute;
+    top: 60px;
     left: 700px;
     width: 100%;
     font-size: 14px;
